@@ -15,6 +15,7 @@
  */
 
 require('dotenv').load();
+const express = require("express")
 
 var middleware = require('botkit-middleware-watson')({
   username: process.env.CONVERSATION_USERNAME,
